@@ -1,0 +1,110 @@
+
+The top level annotation
+[Text=I have a small cat.
+This cat has five children, two girls and three boys.
+I often go for a walk with these guys. Tokens=[I-1, have-2, a-3, small-4, cat-5, .-6, This-1, cat-2, has-3, five-4, children-5, ,-6, two-7, girls-8, and-9, three-10, boys-11, .-12, I-1, often-2, go-3, for-4, a-5, walk-6, with-7, these-8, guys-9, .-10] Sentences=[I have a small cat., This cat has five children, two girls and three boys., I often go for a walk with these guys.] CorefChain={1=CHAIN1-["I" in sentence 1, "I" in sentence 3], 2=CHAIN2-["a small cat" in sentence 1, "This cat" in sentence 2], 3=CHAIN3-["five" in sentence 2], 4=CHAIN4-["two" in sentence 2], 5=CHAIN5-["three" in sentence 2], 7=CHAIN7-["five children , two girls and three boys" in sentence 2], 8=CHAIN8-["five children" in sentence 2], 9=CHAIN9-["two girls" in sentence 2], 10=CHAIN10-["three boys" in sentence 2], 12=CHAIN12-["a walk with these guys" in sentence 3], 13=CHAIN13-["these guys" in sentence 3]}]
+
+The keys of the0 sentence 's CoreMap are:
+[class edu.stanford.nlp.ling.CoreAnnotations$TextAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$CharacterOffsetBeginAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$CharacterOffsetEndAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$TokensAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$TokenBeginAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$TokenEndAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$SentenceIndexAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$NumerizedTokensAnnotation, class edu.stanford.nlp.trees.TreeCoreAnnotations$TreeAnnotation, class edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations$CollapsedDependenciesAnnotation, class edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations$BasicDependenciesAnnotation, class edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations$CollapsedCCProcessedDependenciesAnnotation, class edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations$AlternativeDependenciesAnnotation]
+
+The0sentence tokens are:
+[Value=I Text=I OriginalText=I CharacterOffsetBegin=0 CharacterOffsetEnd=1 Before= After=  Index=1 SentenceIndex=0 PartOfSpeech=PRP Lemma=I TokenBegin=0 TokenEnd=1 NamedEntityTag=O BeginIndex=0 EndIndex=1 Utterance=0 Paragraph=1 Speaker=PER0 CorefClusterId=1]
+[Value=have Text=have OriginalText=have CharacterOffsetBegin=2 CharacterOffsetEnd=6 Before=  After=  Index=2 SentenceIndex=0 PartOfSpeech=VBP Lemma=have TokenBegin=1 TokenEnd=2 NamedEntityTag=O BeginIndex=1 EndIndex=2 Utterance=0 Paragraph=1 Speaker=PER0]
+[Value=a Text=a OriginalText=a CharacterOffsetBegin=7 CharacterOffsetEnd=8 Before=  After=  Index=3 SentenceIndex=0 PartOfSpeech=DT Lemma=a TokenBegin=2 TokenEnd=3 NamedEntityTag=O BeginIndex=2 EndIndex=3 Utterance=0 Paragraph=1 Speaker=PER0]
+[Value=small Text=small OriginalText=small CharacterOffsetBegin=9 CharacterOffsetEnd=14 Before=  After=  Index=4 SentenceIndex=0 PartOfSpeech=JJ Lemma=small TokenBegin=3 TokenEnd=4 NamedEntityTag=O BeginIndex=3 EndIndex=4 Utterance=0 Paragraph=1 Speaker=PER0]
+[Value=cat Text=cat OriginalText=cat CharacterOffsetBegin=15 CharacterOffsetEnd=18 Before=  After= Index=5 SentenceIndex=0 PartOfSpeech=NN Lemma=cat TokenBegin=4 TokenEnd=5 NamedEntityTag=O BeginIndex=4 EndIndex=5 Utterance=0 Paragraph=1 Speaker=PER0 CorefClusterId=2]
+[Value=. Text=. OriginalText=. CharacterOffsetBegin=18 CharacterOffsetEnd=19 Before= After=
+ Index=6 SentenceIndex=0 PartOfSpeech=. Lemma=. TokenBegin=5 TokenEnd=6 NamedEntityTag=O BeginIndex=5 EndIndex=6 Utterance=0 Paragraph=1 Speaker=PER0]
+
+The0sentence parse tree is:
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (NP (DT a) (JJ small) (NN cat)))
+    (. .)))
+
+The first sentence collapsed, CC-processed dependencies are:
+root(ROOT-0, have-2)
+nsubj(have-2, I-1)
+det(cat-5, a-3)
+amod(cat-5, small-4)
+dobj(have-2, cat-5)
+punct(have-2, .-6)
+
+The keys of the1 sentence 's CoreMap are:
+[class edu.stanford.nlp.ling.CoreAnnotations$TextAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$CharacterOffsetBeginAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$CharacterOffsetEndAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$TokensAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$TokenBeginAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$TokenEndAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$SentenceIndexAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$NumerizedTokensAnnotation, class edu.stanford.nlp.trees.TreeCoreAnnotations$TreeAnnotation, class edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations$CollapsedDependenciesAnnotation, class edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations$BasicDependenciesAnnotation, class edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations$CollapsedCCProcessedDependenciesAnnotation, class edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations$AlternativeDependenciesAnnotation]
+
+The1sentence tokens are:
+[Value=This Text=This OriginalText=This CharacterOffsetBegin=21 CharacterOffsetEnd=25 Before=
+ After=  Index=1 SentenceIndex=1 PartOfSpeech=DT Lemma=this TokenBegin=6 TokenEnd=7 NamedEntityTag=O BeginIndex=0 EndIndex=1 Utterance=0 Paragraph=1 Speaker=PER0]
+[Value=cat Text=cat OriginalText=cat CharacterOffsetBegin=26 CharacterOffsetEnd=29 Before=  After=  Index=2 SentenceIndex=1 PartOfSpeech=NN Lemma=cat TokenBegin=7 TokenEnd=8 NamedEntityTag=O BeginIndex=1 EndIndex=2 Utterance=0 Paragraph=1 Speaker=PER0 CorefClusterId=2]
+[Value=has Text=has OriginalText=has CharacterOffsetBegin=30 CharacterOffsetEnd=33 Before=  After=  Index=3 SentenceIndex=1 PartOfSpeech=VBZ Lemma=have TokenBegin=8 TokenEnd=9 NamedEntityTag=O BeginIndex=2 EndIndex=3 Utterance=0 Paragraph=1 Speaker=PER0]
+[Value=five Text=five OriginalText=five CharacterOffsetBegin=34 CharacterOffsetEnd=38 Before=  After=  Index=4 SentenceIndex=1 PartOfSpeech=CD Lemma=five NumericValue=5 NumericType=NUMBER NumericCompositeValue=5 NumericCompositeType=NUMBER TokenBegin=9 TokenEnd=10 NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.0 BeginIndex=3 EndIndex=4 Utterance=0 Paragraph=1 Speaker=PER0 CorefClusterId=3]
+[Value=children Text=children OriginalText=children CharacterOffsetBegin=39 CharacterOffsetEnd=47 Before=  After= Index=5 SentenceIndex=1 PartOfSpeech=NNS Lemma=child TokenBegin=10 TokenEnd=11 NamedEntityTag=O BeginIndex=4 EndIndex=5 Utterance=0 Paragraph=1 Speaker=PER0 CorefClusterId=8]
+[Value=, Text=, OriginalText=, CharacterOffsetBegin=47 CharacterOffsetEnd=48 Before= After=  Index=6 SentenceIndex=1 PartOfSpeech=, Lemma=, TokenBegin=11 TokenEnd=12 NamedEntityTag=O BeginIndex=5 EndIndex=6 Utterance=0 Paragraph=1 Speaker=PER0]
+[Value=two Text=two OriginalText=two CharacterOffsetBegin=49 CharacterOffsetEnd=52 Before=  After=  Index=7 SentenceIndex=1 PartOfSpeech=CD Lemma=two NumericValue=2 NumericType=NUMBER NumericCompositeValue=2 NumericCompositeType=NUMBER TokenBegin=12 TokenEnd=13 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0 BeginIndex=6 EndIndex=7 Utterance=0 Paragraph=1 Speaker=PER0 CorefClusterId=4]
+[Value=girls Text=girls OriginalText=girls CharacterOffsetBegin=53 CharacterOffsetEnd=58 Before=  After=  Index=8 SentenceIndex=1 PartOfSpeech=NNS Lemma=girl TokenBegin=13 TokenEnd=14 NamedEntityTag=O BeginIndex=7 EndIndex=8 Utterance=0 Paragraph=1 Speaker=PER0 CorefClusterId=9]
+[Value=and Text=and OriginalText=and CharacterOffsetBegin=59 CharacterOffsetEnd=62 Before=  After=  Index=9 SentenceIndex=1 PartOfSpeech=CC Lemma=and TokenBegin=14 TokenEnd=15 NamedEntityTag=O BeginIndex=8 EndIndex=9 Utterance=0 Paragraph=1 Speaker=PER0]
+[Value=three Text=three OriginalText=three CharacterOffsetBegin=63 CharacterOffsetEnd=68 Before=  After=  Index=10 SentenceIndex=1 PartOfSpeech=CD Lemma=three NumericValue=3 NumericType=NUMBER NumericCompositeValue=3 NumericCompositeType=NUMBER TokenBegin=15 TokenEnd=16 NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0 BeginIndex=9 EndIndex=10 Utterance=0 Paragraph=1 Speaker=PER0 CorefClusterId=5]
+[Value=boys Text=boys OriginalText=boys CharacterOffsetBegin=69 CharacterOffsetEnd=73 Before=  After= Index=11 SentenceIndex=1 PartOfSpeech=NNS Lemma=boy TokenBegin=16 TokenEnd=17 NamedEntityTag=O BeginIndex=10 EndIndex=11 Utterance=0 Paragraph=1 Speaker=PER0 CorefClusterId=10]
+[Value=. Text=. OriginalText=. CharacterOffsetBegin=73 CharacterOffsetEnd=74 Before= After=
+ Index=12 SentenceIndex=1 PartOfSpeech=. Lemma=. TokenBegin=17 TokenEnd=18 NamedEntityTag=O BeginIndex=11 EndIndex=12 Utterance=0 Paragraph=1 Speaker=PER0]
+
+The1sentence parse tree is:
+(ROOT
+  (S
+    (NP (DT This) (NN cat))
+    (VP (VBZ has)
+      (NP
+        (NP (CD five) (NNS children))
+        (, ,)
+        (NP (CD two) (NNS girls))
+        (CC and)
+        (NP (CD three) (NNS boys))))
+    (. .)))
+
+The first sentence collapsed, CC-processed dependencies are:
+root(ROOT-0, has-3)
+det(cat-2, This-1)
+nsubj(has-3, cat-2)
+nummod(children-5, five-4)
+dobj(has-3, children-5)
+punct(children-5, ,-6)
+nummod(girls-8, two-7)
+dobj(has-3, girls-8)
+conj:and(children-5, girls-8)
+cc(children-5, and-9)
+nummod(boys-11, three-10)
+dobj(has-3, boys-11)
+conj:and(children-5, boys-11)
+punct(has-3, .-12)
+
+The keys of the2 sentence 's CoreMap are:
+[class edu.stanford.nlp.ling.CoreAnnotations$TextAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$CharacterOffsetBeginAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$CharacterOffsetEndAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$TokensAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$TokenBeginAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$TokenEndAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$SentenceIndexAnnotation, class edu.stanford.nlp.ling.CoreAnnotations$NumerizedTokensAnnotation, class edu.stanford.nlp.trees.TreeCoreAnnotations$TreeAnnotation, class edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations$CollapsedDependenciesAnnotation, class edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations$BasicDependenciesAnnotation, class edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations$CollapsedCCProcessedDependenciesAnnotation, class edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations$AlternativeDependenciesAnnotation]
+
+The2sentence tokens are:
+[Value=I Text=I OriginalText=I CharacterOffsetBegin=76 CharacterOffsetEnd=77 Before=
+ After=  Index=1 SentenceIndex=2 PartOfSpeech=PRP Lemma=I TokenBegin=18 TokenEnd=19 NamedEntityTag=O BeginIndex=0 EndIndex=1 Utterance=0 Paragraph=1 Speaker=PER0 CorefClusterId=1]
+[Value=often Text=often OriginalText=often CharacterOffsetBegin=78 CharacterOffsetEnd=83 Before=  After=  Index=2 SentenceIndex=2 PartOfSpeech=RB Lemma=often TokenBegin=19 TokenEnd=20 NamedEntityTag=O BeginIndex=1 EndIndex=2 Utterance=0 Paragraph=1 Speaker=PER0]
+[Value=go Text=go OriginalText=go CharacterOffsetBegin=84 CharacterOffsetEnd=86 Before=  After=  Index=3 SentenceIndex=2 PartOfSpeech=VBP Lemma=go TokenBegin=20 TokenEnd=21 NamedEntityTag=O BeginIndex=2 EndIndex=3 Utterance=0 Paragraph=1 Speaker=PER0]
+[Value=for Text=for OriginalText=for CharacterOffsetBegin=87 CharacterOffsetEnd=90 Before=  After=  Index=4 SentenceIndex=2 PartOfSpeech=IN Lemma=for TokenBegin=21 TokenEnd=22 NamedEntityTag=O BeginIndex=3 EndIndex=4 Utterance=0 Paragraph=1 Speaker=PER0]
+[Value=a Text=a OriginalText=a CharacterOffsetBegin=91 CharacterOffsetEnd=92 Before=  After=  Index=5 SentenceIndex=2 PartOfSpeech=DT Lemma=a TokenBegin=22 TokenEnd=23 NamedEntityTag=O BeginIndex=4 EndIndex=5 Utterance=0 Paragraph=1 Speaker=PER0]
+[Value=walk Text=walk OriginalText=walk CharacterOffsetBegin=93 CharacterOffsetEnd=97 Before=  After=  Index=6 SentenceIndex=2 PartOfSpeech=NN Lemma=walk TokenBegin=23 TokenEnd=24 NamedEntityTag=O BeginIndex=5 EndIndex=6 Utterance=0 Paragraph=1 Speaker=PER0 CorefClusterId=12]
+[Value=with Text=with OriginalText=with CharacterOffsetBegin=98 CharacterOffsetEnd=102 Before=  After=  Index=7 SentenceIndex=2 PartOfSpeech=IN Lemma=with TokenBegin=24 TokenEnd=25 NamedEntityTag=O BeginIndex=6 EndIndex=7 Utterance=0 Paragraph=1 Speaker=PER0]
+[Value=these Text=these OriginalText=these CharacterOffsetBegin=103 CharacterOffsetEnd=108 Before=  After=  Index=8 SentenceIndex=2 PartOfSpeech=DT Lemma=these TokenBegin=25 TokenEnd=26 NamedEntityTag=O BeginIndex=7 EndIndex=8 Utterance=0 Paragraph=1 Speaker=PER0]
+[Value=guys Text=guys OriginalText=guys CharacterOffsetBegin=109 CharacterOffsetEnd=113 Before=  After= Index=9 SentenceIndex=2 PartOfSpeech=NNS Lemma=guy TokenBegin=26 TokenEnd=27 NamedEntityTag=O BeginIndex=8 EndIndex=9 Utterance=0 Paragraph=1 Speaker=PER0 CorefClusterId=13]
+[Value=. Text=. OriginalText=. CharacterOffsetBegin=113 CharacterOffsetEnd=114 Before= After= Index=10 SentenceIndex=2 PartOfSpeech=. Lemma=. TokenBegin=27 TokenEnd=28 NamedEntityTag=O BeginIndex=9 EndIndex=10 Utterance=0 Paragraph=1 Speaker=PER0]
+
+The2sentence parse tree is:
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB often))
+    (VP (VBP go)
+      (PP (IN for)
+        (NP
+          (NP (DT a) (NN walk))
+          (PP (IN with)
+            (NP (DT these) (NNS guys))))))
+    (. .)))
